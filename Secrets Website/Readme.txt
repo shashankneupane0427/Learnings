@@ -1,6 +1,17 @@
-To run this website:
-1. Change directory to Secrete Website.
-2. Run the command "npm install" in terminal (make sure you have node installed before running node coammands).
-3. Start the server by running the command "node index.js" in terminal.
-4. In browser enter the url  localhost:3000
-5. The password is shashank to access to secrete page.
+# Secrets Website
+<img src="./public/Secret.png"/>
+
+This project is a simple website that reveals a list of secrets after the user enters the correct password. It's built using Express.js for the backend and includes basic HTML and CSS for the frontend.
+
+## Features
+
+- Password-protected access to a list of secrets.
+- Simple and clean user interface.
+- Basic styling with CSS.
+
+## Technologies Used
+
+- Node.js
+- Express.js
+- HTML
+- CSS
