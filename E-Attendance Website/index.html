@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Attendance</title>
+    <link rel="icon" type="image/png" href="./assets/logo.png">
+    <link rel="stylesheet" href="./static/login.css">
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <h1>e - attendance</h1>
+        </div>
+        <div class="right">
+            <h2>LOG IN</h2>
+            <form id = "login-form">
+                <input class="form-control" id="username" type="text" placeholder="Username" required>
+                <input class="form-control" id="password" type="password" placeholder="Password" required>
+                <button class="btn" id="login-btn" type="submit">Submit</button>
+            </form>
+            <p id="error-msg"></p>
+        </div>
+    </div>
+    <script type="module" src="login.js"></script>
+</body>
+</html>

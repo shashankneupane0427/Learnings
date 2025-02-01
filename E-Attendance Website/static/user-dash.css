@@ -1,0 +1,269 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.sidebar {
+    width: 240px;
+    background-color: #7f54d3;
+    color: white;
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.sidebar h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    margin-top: 15px;
+}
+
+.menu li {
+    padding: 20px 15px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 18px;
+    margin-bottom: 20px;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+.menu li:hover {
+    background-color: #5a00b0;
+}
+
+.icon {
+    margin-right: 15px;
+    width: 28px;  
+    height: 28px; 
+}
+
+.main-content {
+    flex-grow: 1;
+    padding: 30px;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 25px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 26px;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 30px;
+    top: 25%;
+    transform: translateY(-50%);
+    white-space: nowrap; 
+}
+
+.user-avatar {
+    background-color: #7f54d3;
+    color: white;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15px;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;;
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 25px;
+}
+
+.stat-item {
+    text-align: center;
+    width: 150px;
+}
+
+.stat-icon {
+    display: block;
+    margin: 0 auto 15px;
+    width: 60px;  
+    height: 60px; 
+}
+
+.stat-number {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.stat-label {
+    font-size: 16px;
+    color: #555;
+}
+
+.attendance {
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 25px;
+    width: 100%;
+    max-width: 650px; 
+}
+
+.attendance-info {
+    margin-top: 15px;
+}
+
+.attendance-date {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.attendance-icon {
+    width: 60px;  
+    height: 60px;  
+    vertical-align: middle; 
+    margin-right: 15px; 
+}
+
+.mark-present-btn {
+    background-color: #7f54d3;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    cursor: pointer;
+    border-radius: 25px;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+.mark-present-btn:hover {
+    background-color: #5a00b0;
+}
+
+.sign-out {
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 18px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    justify-content: center;
+    margin-top: auto;
+}
+.sign-out:hover {
+    background-color: #5a00b0;
+}
+
+.sign-out i {
+    margin-right: 15px;
+}
+
+h2:hover {
+    cursor: pointer;
+}
+
+@media (min-width: 768px) {
+    .container {
+        flex-direction: row;
+    }
+
+    .main-content {
+        align-items: flex-start;
+        padding: 40px;
+    }
+
+    .stats {
+        justify-content: space-between;
+    }
+
+    .stat-item {
+        width: auto;
+    }
+}
+
+@media (max-width: 767px) {
+    .sidebar {
+        width: 100%;
+        height: auto;
+        padding: 15px 20px;
+    }
+
+    .main-content {
+        padding: 20px;
+    }
+
+    .stats {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .stat-item {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .attendance {
+        padding: 20px;
+    }
+
+    .attendance-date {
+        font-size: 16px;
+    }
+
+    .mark-present-btn {
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+
+    header {
+        flex-direction: column; 
+        align-items: center;
+        padding-bottom: 20px;
+    }
+
+    .user-info {
+        position: static; 
+        margin-top: 20px;  
+        margin-left: 0;
+    }
+
+    .user-avatar {
+        width: 40px;
+        height: 40px;
+    }
+}

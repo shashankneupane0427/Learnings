@@ -1,0 +1,242 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.sidebar {
+    width: 240px;
+    background-color: #7f54d3; /* Sidebar background color */
+    color: white;
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.sidebar h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    margin-top: 15px;
+}
+
+.menu li {
+    padding: 20px 15px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 18px;
+    margin-bottom: 20px;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+.menu li:hover {
+    background-color: #5a00b0; /* Menu hover color */
+}
+
+.icon {
+    margin-right: 15px;
+    width: 28px;  
+    height: 28px; 
+}
+
+.sign-out {
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 18px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    justify-content: center;
+    margin-top: auto;
+}
+.sign-out:hover {
+    background-color: #5a00b0; /* Sign out hover color */
+}
+
+.sign-out i {
+    margin-right: 15px;
+}
+
+.main-content {
+    flex-grow: 1;
+    padding: 30px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: auto;
+}
+
+/* Application Title Styling */
+header {
+    width: 100%;
+    padding-bottom: 25px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    border-bottom: 2px solid #ddd;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #6a1b9a;
+    display: flex;
+    align-items: center;
+}
+
+header h1 i {
+    margin-right: 8px;
+    font-size: 24px;
+}
+
+/* User Info and Profile Circle Styling */
+.user-info {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    font-size: 16px;
+}
+
+.user-info span {
+    margin-right: 8px;
+    font-size: 18px; 
+}
+
+.user-avatar {
+    background-color: #7f54d3;
+    color: white;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15px;
+}
+
+.profile-circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #7f54d3;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th,
+table td {
+    padding: 15px;
+    text-align: left;
+    
+}
+
+table th {
+    background-color: #f0f0f0;
+}
+
+.status {
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+}
+
+.status.approved {
+    background-color: #4caf50;
+}
+
+.status.rejected {
+    background-color: #f44336;
+}
+
+/* Button Styling */
+.approve, .reject, .approved, .rejected {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.approve {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.reject {
+    background-color: #f44336;
+    color: white;
+}
+
+.approved, .rejected {
+    cursor: default;
+}
+
+.approved {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.rejected {
+    background-color: #f44336;
+    color: white;
+}
+
+.table-container {
+    width: 100%;
+}
+
+.table-header {
+    margin-bottom: 20px;
+    text-align: left;
+    font-size: 1.5em;
+    color: #333;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #f0f0f0;
+}
+
+

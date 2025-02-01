@@ -18,7 +18,8 @@
   "contributors": [],
   "scripts": {
     "dev": "",
-    "test": ""
+    "test": "",
+    "start": "node index.js"
   },
   "description": "",
   "dependencies": {

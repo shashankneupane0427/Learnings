@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Dashboard</title>
+    <link rel="icon" type="image/png" href="./assets/logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="/static/user-dash.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <h2>Smart Attend</h2>
+            <ul class="menu">
+                <li class="active" id="dashboard">
+                    <img src="/assets/dash.png" alt="Dashboard Icon" class="icon"> Dashboard
+                </li>
+                <li id="application">
+                    <img src="/assets/app.png" alt="Application Icon" class="icon"> Application
+                </li>
+            </ul>
+            <div class="sign-out" id="signout">
+                <i class="fa-solid fa-right-from-bracket"></i> Sign Out
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <header>
+                <div class="header-content">
+                    <h1><img src="/assets/dash.jpg" alt="Dashboard Icon" class="icon"> Dashboard</h1>
+                    <div class="user-info">
+                        <span>Shashank</span>
+                        <div class="user-avatar">SA</div>
+                    </div>
+                </div>
+            </header>
+
+            <!-- Statistics Section -->
+            <section class="stats">
+                <div class="stat-item">
+                    <img src="/assets/icons8-attendance-48.png" alt="Present Icon" class="stat-icon">
+                    <span class="stat-number-present">0</span>
+                    <span class="stat-label">Present</span>
+                </div>
+                <div class="stat-item">
+                    <img src="/assets/absent.jpg" alt="Absent Icon" class="stat-icon">
+                    <span class="stat-number-absent">0</span>
+                    <span class="stat-label">Absent</span>
+                </div>
+                <div class="stat-item">
+                    <img src="/assets/working days icon.jpg" alt="Working Days Icon" class="stat-icon">
+                    <span class="stat-number">30</span>
+                    <span class="stat-label">Working Days</span>
+                </div>
+            </section>
+
+            <!-- Attendance Section -->
+            <section class="attendance">
+                <h2><img src="/assets/WhatsApp Image 2024-08-09 at 19.45.37_0f455655.jpg" alt="Attendance Icon" class="attendance-icon"> Today's Attendance</h2>
+
+                <div class="attendance-info">
+                    <span class="attendance-date"></span>
+                    <button id="submit-btn" class="mark-present-btn">MARK AS PRESENT</button>
+                </div>
+            </section>
+        </div>
+    </div>
+</body>
+<script src="user-dash.js"></script>
+<script src="/data/submit.js"></script>
+<script src="/data/stats.js"></script>
+</html>
