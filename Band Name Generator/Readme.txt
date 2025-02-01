@@ -1,5 +1,18 @@
-To run this website:
-1. Change directory to BandNameGenerator.
-2. Run the command "npm install" in terminal (make sure you have node installed before running node coammands).
-3. Start the server by running the command "node index.js" in terminal.
-4. In browser enter the url  localhost:3000
+# Band Name Generator 🎸
+<img src="./public/Band Name Generator.png">
+This is a simple web application built with **Node.js**, **Express.js**, and **EJS**. It generates random band names using an adjective and a noun.
+
+## Features
+- Generates a random band name.
+- Uses **EJS** for templating.
+- Simple **Express.js** server.
+- **POST request** to generate a new name.
+- Basic frontend styling.
+
+## Technologies Used
+
+-   Node.js
+-   Express.js
+-   EJS (Embedded JavaScript Templating)
+-   HTML
+-   CSS

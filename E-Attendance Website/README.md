@@ -1,9 +1,6 @@
 # E-Attendance Website
 
-<img src="./assets/pic1.png" alt="image">
-<img src="./assets/pic2.png" alt="image">
-<img src="./assets/pic3.png" alt="image">
-<img src="./assets/pic4.png" alt="image">
+<img src="./assets/E-attendance.png" alt="image">
 
 This is an E-Attendance system designed for seamless management of staff attendance. It allows users to mark themselves as present, submit applications, and view their attendance statistics. The admin panel provides administrators with tools to manage staff attendance, respond to applications, and view detailed attendance records.
 
