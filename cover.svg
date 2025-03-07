@@ -1,0 +1,174 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 640">
+  <!-- Enhanced background with multiple gradients -->
+  <defs>
+    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a192f" />
+      <stop offset="100%" stop-color="#112240" />
+    </linearGradient>
+    
+    <radialGradient id="center-glow" cx="50%" cy="50%" r="70%" fx="50%" fy="50%">
+      <stop offset="0%" stop-color="#233554" stop-opacity="0.6" />
+      <stop offset="100%" stop-color="#0a192f" stop-opacity="0" />
+    </radialGradient>
+    
+    <linearGradient id="title-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#64ffda" />
+      <stop offset="50%" stop-color="#57cbff" />
+      <stop offset="100%" stop-color="#c792ea" />
+    </linearGradient>
+    
+    <!-- Improved glow effect -->
+    <filter id="soft-glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="10" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+    
+    <filter id="text-glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+  
+  <!-- Main background -->
+  <rect width="1280" height="640" fill="url(#bg-gradient)" />
+  <rect width="1280" height="640" fill="url(#center-glow)" />
+  
+  <!-- Subtle animated particles -->
+  <g opacity="0.3">
+    <circle cx="200" cy="100" r="2" fill="#8892b0" />
+    <circle cx="400" cy="150" r="1" fill="#8892b0" />
+    <circle cx="600" cy="80" r="1.5" fill="#8892b0" />
+    <circle cx="800" cy="120" r="1" fill="#8892b0" />
+    <circle cx="1000" cy="90" r="2" fill="#8892b0" />
+    <circle cx="1200" cy="160" r="1.5" fill="#8892b0" />
+    <circle cx="100" cy="200" r="1" fill="#8892b0" />
+    <circle cx="300" cy="250" r="2" fill="#8892b0" />
+    <circle cx="500" cy="280" r="1" fill="#8892b0" />
+    <circle cx="700" cy="220" r="1.5" fill="#8892b0" />
+    <circle cx="900" cy="270" r="1" fill="#8892b0" />
+    <circle cx="1100" cy="240" r="2" fill="#8892b0" />
+    <circle cx="150" cy="350" r="1.5" fill="#8892b0" />
+    <circle cx="350" cy="380" r="1" fill="#8892b0" />
+    <circle cx="550" cy="330" r="2" fill="#8892b0" />
+    <circle cx="750" cy="390" r="1" fill="#8892b0" />
+    <circle cx="950" cy="360" r="1.5" fill="#8892b0" />
+    <circle cx="1150" cy="400" r="2" fill="#8892b0" />
+    <circle cx="250" cy="450" r="1" fill="#8892b0" />
+    <circle cx="450" cy="480" r="1.5" fill="#8892b0" />
+    <circle cx="650" cy="430" r="2" fill="#8892b0" />
+    <circle cx="850" cy="490" r="1" fill="#8892b0" />
+    <circle cx="1050" cy="460" r="1.5" fill="#8892b0" />
+    <circle cx="200" cy="550" r="2" fill="#8892b0" />
+    <circle cx="400" cy="520" r="1" fill="#8892b0" />
+    <circle cx="600" cy="570" r="1.5" fill="#8892b0" />
+    <circle cx="800" cy="530" r="2" fill="#8892b0" />
+    <circle cx="1000" cy="580" r="1" fill="#8892b0" />
+    <circle cx="1200" cy="540" r="1.5" fill="#8892b0" />
+  </g>
+  
+  <!-- Modern digital grid -->
+  <g stroke="#233554" stroke-width="1" opacity="0.5">
+    <path d="M0,80 L1280,80 M0,160 L1280,160 M0,240 L1280,240 M0,320 L1280,320 M0,400 L1280,400 M0,480 L1280,480 M0,560 L1280,560" />
+    <path d="M80,0 L80,640 M160,0 L160,640 M240,0 L240,640 M320,0 L320,640 M400,0 L400,640 M480,0 L480,640 M560,0 L560,640 M640,0 L640,640 M720,0 L720,640 M800,0 L800,640 M880,0 L880,640 M960,0 L960,640 M1040,0 L1040,640 M1120,0 L1120,640 M1200,0 L1200,640" />
+  </g>
+  
+  <!-- Abstract tech elements -->
+  <g opacity="0.8">
+    <!-- Central design element -->
+    <circle cx="640" cy="320" r="160" fill="none" stroke="#64ffda" stroke-width="1" opacity="0.2" />
+    <circle cx="640" cy="320" r="140" fill="none" stroke="#64ffda" stroke-width="1" opacity="0.3" />
+    <circle cx="640" cy="320" r="120" fill="none" stroke="#57cbff" stroke-width="1" opacity="0.3" />
+    <circle cx="640" cy="320" r="100" fill="none" stroke="#57cbff" stroke-width="1" opacity="0.4" />
+    <circle cx="640" cy="320" r="80" fill="none" stroke="#c792ea" stroke-width="1" opacity="0.4" />
+    <circle cx="640" cy="320" r="60" fill="none" stroke="#c792ea" stroke-width="1" opacity="0.5" />
+  </g>
+  
+  <!-- Network node connections with smooth curves -->
+  <g>
+    <!-- Main nodes -->
+    <circle cx="380" cy="240" r="6" fill="#64ffda" />
+    <circle cx="540" cy="180" r="6" fill="#57cbff" />
+    <circle cx="740" cy="180" r="6" fill="#c792ea" />
+    <circle cx="900" cy="240" r="6" fill="#64ffda" />
+    <circle cx="440" cy="380" r="6" fill="#c792ea" />
+    <circle cx="640" cy="320" r="8" fill="#ff7edb" />
+    <circle cx="840" cy="380" r="6" fill="#57cbff" />
+    
+    <!-- Connection lines with gradient -->
+    <g stroke-width="2" fill="none" opacity="0.6">
+      <path d="M380,240 Q460,160 540,180" stroke="#64ffda" />
+      <path d="M540,180 Q640,160 740,180" stroke="#57cbff" />
+      <path d="M740,180 Q820,160 900,240" stroke="#c792ea" />
+      <path d="M380,240 Q410,310 440,380" stroke="#64ffda" />
+      <path d="M900,240 Q870,310 840,380" stroke="#c792ea" />
+      <path d="M440,380 Q540,360 640,320" stroke="#57cbff" />
+      <path d="M640,320 Q740,360 840,380" stroke="#64ffda" />
+      <path d="M540,180 Q590,250 640,320" stroke="#c792ea" />
+      <path d="M740,180 Q690,250 640,320" stroke="#57cbff" />
+    </g>
+  </g>
+  
+  <!-- Stylish tech icons with better positioning -->
+  <!-- Code icon -->
+  <g transform="translate(300, 320)" filter="url(#soft-glow)">
+    <path d="M0,20 L15,0 L25,10 L15,20 L25,30 L15,40 L0,20" fill="#64ffda" />
+    <path d="M50,0 L35,20 L50,40 L60,30 L45,20 L60,10 L50,0" fill="#64ffda" />
+  </g>
+  
+  <!-- Database icon -->
+  <g transform="translate(880, 320)" filter="url(#soft-glow)">
+    <ellipse cx="30" cy="10" rx="30" ry="10" fill="none" stroke="#ff7edb" stroke-width="2" />
+    <path d="M0,10 L0,40 C0,50 60,50 60,40 L60,10" fill="none" stroke="#ff7edb" stroke-width="2" />
+    <ellipse cx="30" cy="40" rx="30" ry="10" fill="none" stroke="#ff7edb" stroke-width="2" />
+  </g>
+  
+  <!-- Cloud icon -->
+  <g transform="translate(640, 440)" filter="url(#soft-glow)">
+    <path d="M20,40 C10,40 0,35 0,25 C0,15 10,10 20,15 C25,5 40,5 45,15 C55,15 60,25 55,35 C55,40 45,40 40,40 Z" fill="none" stroke="#57cbff" stroke-width="2" />
+  </g>
+  
+  <!-- Network icon -->
+  <g transform="translate(520, 440)" filter="url(#soft-glow)">
+    <circle cx="0" cy="0" r="5" fill="#c792ea" />
+    <circle cx="30" cy="-10" r="5" fill="#c792ea" />
+    <circle cx="20" cy="20" r="5" fill="#c792ea" />
+    <line x1="0" y1="0" x2="30" y2="-10" stroke="#c792ea" stroke-width="2" />
+    <line x1="0" y1="0" x2="20" y2="20" stroke="#c792ea" stroke-width="2" />
+    <line x1="30" y1="-10" x2="20" y2="20" stroke="#c792ea" stroke-width="2" />
+  </g>
+  
+  <!-- Server icon -->
+  <g transform="translate(760, 440)" filter="url(#soft-glow)">
+    <rect x="0" y="0" width="40" height="10" rx="2" fill="none" stroke="#ffa7c4" stroke-width="2" />
+    <rect x="0" y="15" width="40" height="10" rx="2" fill="none" stroke="#ffa7c4" stroke-width="2" />
+    <rect x="0" y="30" width="40" height="10" rx="2" fill="none" stroke="#ffa7c4" stroke-width="2" />
+    <circle cx="5" cy="5" r="2" fill="#ffa7c4" />
+    <circle cx="5" cy="20" r="2" fill="#ffa7c4" />
+    <circle cx="5" cy="35" r="2" fill="#ffa7c4" />
+  </g>
+  
+  <!-- Improved title placement and styling -->
+  <g filter="url(#text-glow)">
+    <text x="640" y="270" font-family="'SF Pro Display', 'Segoe UI', Arial, sans-serif" font-size="90" font-weight="900" fill="url(#title-gradient)" text-anchor="middle" letter-spacing="2">LEARNINGS</text>
+    <text x="640" y="320" font-family="'SF Pro Display', 'Segoe UI', Arial, sans-serif" font-size="28" fill="#8892b0" text-anchor="middle" letter-spacing="8">IT KNOWLEDGE REPOSITORY</text>
+  </g>
+  
+  <!-- Decorative elements -->
+  <g opacity="0.5">
+    <!-- Abstract tech pattern -->
+    <path d="M150,520 L180,550 L150,580" fill="none" stroke="#64ffda" stroke-width="1" />
+    <path d="M1130,520 L1100,550 L1130,580" fill="none" stroke="#64ffda" stroke-width="1" />
+    
+    <!-- Binary decorations -->
+    <text x="180" y="100" font-family="monospace" font-size="12" fill="#8892b0" opacity="0.6">01001100 01000101 01000001 01010010 01001110</text>
+    <text x="840" y="100" font-family="monospace" font-size="12" fill="#8892b0" opacity="0.6">01001001 01010100</text>
+    <text x="420" y="580" font-family="monospace" font-size="12" fill="#8892b0" opacity="0.6">01000011 01001111 01000100 01000101</text>
+    <text x="760" y="580" font-family="monospace" font-size="12" fill="#8892b0" opacity="0.6">01000100 01000001 01010100 01000001</text>
+  </g>
+  
+  <!-- Modern accent lines -->
+  <path d="M0,0 L40,40" stroke="#64ffda" stroke-width="2" opacity="0.5" />
+  <path d="M1280,0 L1240,40" stroke="#64ffda" stroke-width="2" opacity="0.5" />
+  <path d="M0,640 L40,600" stroke="#64ffda" stroke-width="2" opacity="0.5" />
+  <path d="M1280,640 L1240,600" stroke="#64ffda" stroke-width="2" opacity="0.5" />
+</svg>
